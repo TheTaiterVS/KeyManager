@@ -7,16 +7,20 @@ EXAMPLE:
 
 #include "KeyManager.h"
 
-void main()
-{
+void main() {
+
   keyManager manager;
+  
   manager.switchGlobalInput();
-  while(true)
-  {
-    if(manager.isKeyPressed(VK_INSERT, false)
-    {
-      cout << "INSERT PRESSED!" << endl;
-    }
+  
+  while(true) {
+  
+    if(manager.isKeyPressed(VK_INSERT, false) {
+    
+      cout << "INSERT PRESSED!" << endl; }
+      
   }
+  
   return 0;
+  
 }
