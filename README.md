@@ -19,6 +19,7 @@ void main()
         {
           cout << "INSERT PRESSED!" << endl;
         }
+        Sleep(1);
     }
     return 0;
 }
