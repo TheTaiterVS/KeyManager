@@ -1,7 +1,7 @@
 1. Add KeyManager.h to your project
 2. Include KeyManager.h
 3. Create a keyManager class and call a method to validate global input
-4. Use method  isKeyPressed(byte key, bool repeat = false)  for check input
+4. Use method  isKeyPressed(DWORD key, bool repeat = false)  for check input
 
 EXAMPLE:
 
