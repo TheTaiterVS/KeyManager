@@ -5,20 +5,21 @@
 
 EXAMPLE:
 
+```
 #include "KeyManager.h"
 
-```
 void main()
 {
-  keyManager manager;
-  manager.switchGlobalInput();
-  while(true)
-  {
-    if(manager.isKeyPressed(VK_INSERT, false)
+    keyManager manager;
+    manager.switchGlobalInput();
+  
+    while(true)
     {
-      cout << "INSERT PRESSED!" << endl;
+        if(manager.isKeyPressed(VK_INSERT, false)
+        {
+          cout << "INSERT PRESSED!" << endl;
+        }
     }
-  }
-  return 0;
+    return 0;
 }
 ```
